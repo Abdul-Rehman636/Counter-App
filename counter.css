@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.title{
+    font-size: 52px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 0px 32px 52px 32px;
+    border-radius: 8px;
+}
+
+#value{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins";
+    height: 36px;
+    color: #fff;
+}
+
+.increase{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 8px 15px;
+    background-color: transparent;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #4caf50;
+}
+
+.increase:hover{
+    border: #4caf50;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.reset{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 8px 15px;
+    background-color: transparent;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #ff9800;
+}
+
+.reset:hover{
+    border: #ff9800;
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.decrease{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 8px 15px;
+    background-color: transparent;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #f44336;
+}
+
+.decrease:hover{
+    border: #f44336;
+    background-color: #f44336;
+    color: #fff;
+}
